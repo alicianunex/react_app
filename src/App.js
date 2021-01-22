@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <Fragment>
-      <h1>Hello World</h1>
+      <Header title="React App" />
     </Fragment>
   );
 };
