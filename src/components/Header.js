@@ -7,8 +7,7 @@ const Header = ({ title }) => {
         <div className="content">
           <h1 className="title">{title}</h1>
           <p className="text">
-            I'm going to use and APi with The Simpsons or Rick and Morty, not
-            100% yet, let see how this goes
+            This is a basic react project using Rick and Morty API
           </p>
         </div>
       </div>
