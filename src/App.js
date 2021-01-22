@@ -5,7 +5,7 @@ import Characters from './components/Characters';
 const App = () => {
   return (
     <Fragment>
-      <Header title="React App" />
+      <Header title="Rick and Morty" />
       <Characters />
     </Fragment>
   );
