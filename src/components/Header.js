@@ -6,9 +6,7 @@ const Header = ({ title }) => {
       <div className="container">
         <div className="content">
           <h1 className="title">{title}</h1>
-          <p className="text">
-            This is a basic react project using Rick and Morty API
-          </p>
+          <p className="text">Rick and Morty characters INFO</p>
         </div>
       </div>
     </header>

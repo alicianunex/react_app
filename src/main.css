@@ -1,14 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/shlop');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+
 body {
-  background-color: darkgrey;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
-  background: url('./images/bg2.jpg');
+  background: url(./images/bg2.jpg);
   background-repeat: no-repeat;
   height: 40vh;
   background-size: cover;
   background-position: center;
-  font-family: 'Shlop';
+  font-family: 'Shlop', sans-serif;
+  text-shadow: 1px 2px 2px rgb(95, 106, 117);
+  opacity: 0.8;
 }
 
 header:before {
@@ -38,15 +47,17 @@ header:before {
 }
 
 .title {
-  padding: 10px;
   color: #82bf45;
   font-family: Shlop;
-  font-size: 5rem;
+  font-size: 6rem;
+  margin-top: 1rem;
 }
 .text {
-  color: #17a3ac;
-  font-size: 17px;
-  font-family: 'Shlop';
+  color: #38bdc7;
+  font-size: 20px;
+  font-family: 'Shlop', sans-serif;
+  margin-top: -3.5rem;
+  text-shadow: 0 1px 2px rgb(95, 106, 117);
 }
 
 .characters {
@@ -61,11 +72,11 @@ img {
 }
 .box {
   width: 35%;
-  background-color: #1f2937;
+  background-color: #131516ea;
   margin: 10px;
   display: flex;
   border-radius: 4px;
-  box-shadow: 4px 5px gray;
+  box-shadow: 4px 5px #82bf45;
 }
 
 .character {
@@ -76,7 +87,7 @@ img {
   justify-content: center;
 }
 .name {
-  font-family: 'Shlop';
+  font-family: 'Shlop', sans-serif;
   font-size: 40px;
   color: #82bf45;
 }
@@ -89,7 +100,7 @@ img {
   text-transform: uppercase;
   font-size: 19px;
   margin: 3px 0px;
-  font-family: 'Shlop';
+  font-family: 'Shlop', sans-serif;
 }
 .status {
   text-align: center;
@@ -98,12 +109,22 @@ img {
   background-color: #364150;
   border-radius: 4px;
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 10px;
   margin: 3px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.location {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
   text-align: center;
+  font-family: 'Cormorant Upright', serif;
+  color: black;
+  font-size: 19px;
 }
 
 @media screen and (max-width: 1588px) {
@@ -190,6 +211,7 @@ footer {
   @media screen and (max-width: 378px) {
     .text {
       font-size: 13px;
+      margin-top: -1rem;
     }
   }
 }
