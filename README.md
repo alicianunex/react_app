@@ -1,4 +1,4 @@
-# Rick & Morty React App
+## Rick & Morty React App
 
 ![](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-Tools-black)
 
