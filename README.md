@@ -1,5 +1,8 @@
 <h1 align="center">
+
 Rick & Morty React App
+
+ <img src="https://steamuserimages-a.akamaihd.net/ugc/936063602356639140/E3FF52836D2CF78B3714B6B649C7045A8547305F/" width="270" >
 
 ![](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-Tools-black)
 
